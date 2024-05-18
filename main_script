@@ -1,0 +1,10 @@
+print('inicio')
+loopsUsados = 100
+while loopsUsados > 0:
+    pa.typewrite('aa')
+    time.sleep(0.01)
+    pa.typewrite('ff')
+    time.sleep(0.01)
+    if keyboard.is_pressed('q'):
+        print('stop')
+        break
